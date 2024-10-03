@@ -37,7 +37,7 @@ body {
   /* Reset top and bottom margins from certain elements */
   .login-header,
   .login p {
-    margin-top: 0;
+    margin-top: 600px;
     margin-bottom: 0;
   }
   .login-header {
