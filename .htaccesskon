@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^totaltransactionslimited.com [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.totaltransactionslimited.com [NC]
+RewriteRule ^(.*)$ https://www.mrwebzone.com/$1 [L,R=301,NC]
