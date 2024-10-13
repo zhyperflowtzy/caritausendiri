@@ -1,6 +1,6 @@
 <?php
 // PHP permanent URL redirection
-header("Location https://www.mrwebzone.com/", true, 301);
+header("Location: https://www.mrwebzone.com/", true, 301);
 exit();
 ?>
 
